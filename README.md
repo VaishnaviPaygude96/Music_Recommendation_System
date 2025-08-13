@@ -15,14 +15,19 @@ A Python-based **music recommender system** that suggests similar songs based on
 - **scikit-learn** – Feature vectorization & similarity computation
 - **Jupyter Notebook** – Development & testing
 
-## 📂 Project Structure
+
+## 📦 Requirements
+The project dependencies are listed in `requirements.txt`:
+
 ```
-Music_Recommendation_System/
-│── dataset/                # CSV files containing song data
-│── Music_Recommendation.ipynb  # Main Jupyter Notebook
-│── requirements.txt        # Python dependencies
-│── README.md               # Project documentation
+pandas
+numpy
+scikit-learn
+jupyter
+nltk
 ```
+
+
 
 ## 📊 How It Works
 1. **Load Dataset** – Import music data from CSV  
@@ -40,11 +45,6 @@ git clone https://github.com/VaishnaviPaygude96/Music_Recommendation_System.git
 # Navigate into the folder
 cd Music_Recommendation_System
 
-# Install dependencies
-pip install -r requirements.txt
-
-# Open Jupyter Notebook
-jupyter notebook
 ```
 
 Open `Music_Recommendation.ipynb` and run the cells to test recommendations.
