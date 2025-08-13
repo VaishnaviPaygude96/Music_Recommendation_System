@@ -58,5 +58,3 @@ Open `Music_Recommendation.ipynb` and run the cells to test recommendations.
 4. Photograph  
 5. Happier  
 
-## 📜 License
-This project is licensed under the **MIT License** – you are free to use, modify, and distribute it.
